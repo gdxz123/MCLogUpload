@@ -1,0 +1,1 @@
+../../../../../LocalPods/MCLogUpload/Classes/MCLogUploadModel.h

@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+target 'HGUploadCocoaLumberjack' do
+
+  pod 'MCLogUpload', :path => '../LocalPods/MCLogUpload'
+  pod "CocoaLumberjack"
+  pod 'AFNetworking', '~> 3.2.0'
+
+
+
+  target 'HGUploadCocoaLumberjackTests' do
+    inherit! :search_paths
+
+  end
+
+  target 'HGUploadCocoaLumberjackUITests' do
+    inherit! :search_paths
+    
+  end
+
+end

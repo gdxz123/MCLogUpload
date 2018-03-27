@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06C30CA8CB8E927F4A3C6220 /* libPods-HGUploadCocoaLumberjackUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 006F1B5EAF145A5E961B04F5 /* libPods-HGUploadCocoaLumberjackUITests.a */; };
+		198784355A189A5DA3F137C2 /* libPods-HGUploadCocoaLumberjack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 804B07EFFE3A0704FC05D420 /* libPods-HGUploadCocoaLumberjack.a */; };
+		B66CA0F12064F2FD000DEF49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B66CA0F02064F2FD000DEF49 /* AppDelegate.m */; };
+		B66CA0F42064F2FD000DEF49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66CA0F32064F2FD000DEF49 /* ViewController.m */; };
+		B66CA0F72064F2FD000DEF49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66CA0F52064F2FD000DEF49 /* Main.storyboard */; };
+		B66CA0F92064F2FD000DEF49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B66CA0F82064F2FD000DEF49 /* Assets.xcassets */; };
+		B66CA0FC2064F2FD000DEF49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66CA0FA2064F2FD000DEF49 /* LaunchScreen.storyboard */; };
+		B66CA0FF2064F2FD000DEF49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B66CA0FE2064F2FD000DEF49 /* main.m */; };
+		B66CA1092064F2FD000DEF49 /* HGUploadCocoaLumberjackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B66CA1082064F2FD000DEF49 /* HGUploadCocoaLumberjackTests.m */; };
+		B66CA1142064F2FD000DEF49 /* HGUploadCocoaLumberjackUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B66CA1132064F2FD000DEF49 /* HGUploadCocoaLumberjackUITests.m */; };
+		B66CA13020653558000DEF49 /* MCFileLogUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B66CA12F20653558000DEF49 /* MCFileLogUploadManager.m */; };
+		F2BCDFC96CD0ECF7DEB542A0 /* libPods-HGUploadCocoaLumberjackTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F67F93E69B186BF381724C55 /* libPods-HGUploadCocoaLumberjackTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B66CA1052064F2FD000DEF49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B66CA0E42064F2FD000DEF49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B66CA0EB2064F2FD000DEF49;
+			remoteInfo = HGUploadCocoaLumberjack;
+		};
+		B66CA1102064F2FD000DEF49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B66CA0E42064F2FD000DEF49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B66CA0EB2064F2FD000DEF49;
+			remoteInfo = HGUploadCocoaLumberjack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006F1B5EAF145A5E961B04F5 /* libPods-HGUploadCocoaLumberjackUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HGUploadCocoaLumberjackUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA5D73429BA5DCB8064FDCE /* Pods-HGUploadCocoaLumberjackUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGUploadCocoaLumberjackUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGUploadCocoaLumberjackUITests/Pods-HGUploadCocoaLumberjackUITests.release.xcconfig"; sourceTree = "<group>"; };
+		13AD1A4C6D12B208621878B6 /* Pods-HGUploadCocoaLumberjackTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGUploadCocoaLumberjackTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGUploadCocoaLumberjackTests/Pods-HGUploadCocoaLumberjackTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A2149318F833A80B3832843 /* Pods-HGUploadCocoaLumberjackUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGUploadCocoaLumberjackUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGUploadCocoaLumberjackUITests/Pods-HGUploadCocoaLumberjackUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		804B07EFFE3A0704FC05D420 /* libPods-HGUploadCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HGUploadCocoaLumberjack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9545117E4510C021580D12EC /* Pods-HGUploadCocoaLumberjack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGUploadCocoaLumberjack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGUploadCocoaLumberjack/Pods-HGUploadCocoaLumberjack.debug.xcconfig"; sourceTree = "<group>"; };
+		B66CA0EC2064F2FD000DEF49 /* HGUploadCocoaLumberjack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGUploadCocoaLumberjack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66CA0EF2064F2FD000DEF49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B66CA0F02064F2FD000DEF49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B66CA0F22064F2FD000DEF49 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B66CA0F32064F2FD000DEF49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B66CA0F62064F2FD000DEF49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B66CA0F82064F2FD000DEF49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B66CA0FB2064F2FD000DEF49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B66CA0FD2064F2FD000DEF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66CA0FE2064F2FD000DEF49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B66CA1042064F2FD000DEF49 /* HGUploadCocoaLumberjackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HGUploadCocoaLumberjackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66CA1082064F2FD000DEF49 /* HGUploadCocoaLumberjackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGUploadCocoaLumberjackTests.m; sourceTree = "<group>"; };
+		B66CA10A2064F2FD000DEF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66CA10F2064F2FD000DEF49 /* HGUploadCocoaLumberjackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HGUploadCocoaLumberjackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66CA1132064F2FD000DEF49 /* HGUploadCocoaLumberjackUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGUploadCocoaLumberjackUITests.m; sourceTree = "<group>"; };
+		B66CA1152064F2FD000DEF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66CA12E20653558000DEF49 /* MCFileLogUploadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCFileLogUploadManager.h; sourceTree = "<group>"; };
+		B66CA12F20653558000DEF49 /* MCFileLogUploadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCFileLogUploadManager.m; sourceTree = "<group>"; };
+		B920301C665B7E63F6D2D915 /* Pods-HGUploadCocoaLumberjack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGUploadCocoaLumberjack.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGUploadCocoaLumberjack/Pods-HGUploadCocoaLumberjack.release.xcconfig"; sourceTree = "<group>"; };
+		C430155CCEF2137E10E7C2AD /* Pods-HGUploadCocoaLumberjackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGUploadCocoaLumberjackTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGUploadCocoaLumberjackTests/Pods-HGUploadCocoaLumberjackTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F67F93E69B186BF381724C55 /* libPods-HGUploadCocoaLumberjackTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HGUploadCocoaLumberjackTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B66CA0E92064F2FD000DEF49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198784355A189A5DA3F137C2 /* libPods-HGUploadCocoaLumberjack.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66CA1012064F2FD000DEF49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BCDFC96CD0ECF7DEB542A0 /* libPods-HGUploadCocoaLumberjackTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66CA10C2064F2FD000DEF49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C30CA8CB8E927F4A3C6220 /* libPods-HGUploadCocoaLumberjackUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E01F188C64433AD3EA96AEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				804B07EFFE3A0704FC05D420 /* libPods-HGUploadCocoaLumberjack.a */,
+				F67F93E69B186BF381724C55 /* libPods-HGUploadCocoaLumberjackTests.a */,
+				006F1B5EAF145A5E961B04F5 /* libPods-HGUploadCocoaLumberjackUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		721CFF7282C747D70C629CE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9545117E4510C021580D12EC /* Pods-HGUploadCocoaLumberjack.debug.xcconfig */,
+				B920301C665B7E63F6D2D915 /* Pods-HGUploadCocoaLumberjack.release.xcconfig */,
+				C430155CCEF2137E10E7C2AD /* Pods-HGUploadCocoaLumberjackTests.debug.xcconfig */,
+				13AD1A4C6D12B208621878B6 /* Pods-HGUploadCocoaLumberjackTests.release.xcconfig */,
+				5A2149318F833A80B3832843 /* Pods-HGUploadCocoaLumberjackUITests.debug.xcconfig */,
+				0EA5D73429BA5DCB8064FDCE /* Pods-HGUploadCocoaLumberjackUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B66CA0E32064F2FD000DEF49 = {
+			isa = PBXGroup;
+			children = (
+				B66CA0EE2064F2FD000DEF49 /* HGUploadCocoaLumberjack */,
+				B66CA1072064F2FD000DEF49 /* HGUploadCocoaLumberjackTests */,
+				B66CA1122064F2FD000DEF49 /* HGUploadCocoaLumberjackUITests */,
+				B66CA0ED2064F2FD000DEF49 /* Products */,
+				721CFF7282C747D70C629CE0 /* Pods */,
+				0E01F188C64433AD3EA96AEE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B66CA0ED2064F2FD000DEF49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B66CA0EC2064F2FD000DEF49 /* HGUploadCocoaLumberjack.app */,
+				B66CA1042064F2FD000DEF49 /* HGUploadCocoaLumberjackTests.xctest */,
+				B66CA10F2064F2FD000DEF49 /* HGUploadCocoaLumberjackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B66CA0EE2064F2FD000DEF49 /* HGUploadCocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				B66CA12D20653536000DEF49 /* MCFileLogUploadManager */,
+				B66CA0EF2064F2FD000DEF49 /* AppDelegate.h */,
+				B66CA0F02064F2FD000DEF49 /* AppDelegate.m */,
+				B66CA0F22064F2FD000DEF49 /* ViewController.h */,
+				B66CA0F32064F2FD000DEF49 /* ViewController.m */,
+				B66CA0F52064F2FD000DEF49 /* Main.storyboard */,
+				B66CA0F82064F2FD000DEF49 /* Assets.xcassets */,
+				B66CA0FA2064F2FD000DEF49 /* LaunchScreen.storyboard */,
+				B66CA0FD2064F2FD000DEF49 /* Info.plist */,
+				B66CA0FE2064F2FD000DEF49 /* main.m */,
+			);
+			path = HGUploadCocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		B66CA1072064F2FD000DEF49 /* HGUploadCocoaLumberjackTests */ = {
+			isa = PBXGroup;
+			children = (
+				B66CA1082064F2FD000DEF49 /* HGUploadCocoaLumberjackTests.m */,
+				B66CA10A2064F2FD000DEF49 /* Info.plist */,
+			);
+			path = HGUploadCocoaLumberjackTests;
+			sourceTree = "<group>";
+		};
+		B66CA1122064F2FD000DEF49 /* HGUploadCocoaLumberjackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B66CA1132064F2FD000DEF49 /* HGUploadCocoaLumberjackUITests.m */,
+				B66CA1152064F2FD000DEF49 /* Info.plist */,
+			);
+			path = HGUploadCocoaLumberjackUITests;
+			sourceTree = "<group>";
+		};
+		B66CA12D20653536000DEF49 /* MCFileLogUploadManager */ = {
+			isa = PBXGroup;
+			children = (
+				B66CA12E20653558000DEF49 /* MCFileLogUploadManager.h */,
+				B66CA12F20653558000DEF49 /* MCFileLogUploadManager.m */,
+			);
+			path = MCFileLogUploadManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B66CA0EB2064F2FD000DEF49 /* HGUploadCocoaLumberjack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66CA1182064F2FD000DEF49 /* Build configuration list for PBXNativeTarget "HGUploadCocoaLumberjack" */;
+			buildPhases = (
+				FB750AB291FEA6096346FA24 /* [CP] Check Pods Manifest.lock */,
+				B66CA0E82064F2FD000DEF49 /* Sources */,
+				B66CA0E92064F2FD000DEF49 /* Frameworks */,
+				B66CA0EA2064F2FD000DEF49 /* Resources */,
+				F3AAE34A37CC95626186A096 /* [CP] Embed Pods Frameworks */,
+				5130C5F3FCB5B40E6BFA88A2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HGUploadCocoaLumberjack;
+			productName = HGUploadCocoaLumberjack;
+			productReference = B66CA0EC2064F2FD000DEF49 /* HGUploadCocoaLumberjack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B66CA1032064F2FD000DEF49 /* HGUploadCocoaLumberjackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66CA11B2064F2FD000DEF49 /* Build configuration list for PBXNativeTarget "HGUploadCocoaLumberjackTests" */;
+			buildPhases = (
+				0626795731D8E7CD9EF48025 /* [CP] Check Pods Manifest.lock */,
+				B66CA1002064F2FD000DEF49 /* Sources */,
+				B66CA1012064F2FD000DEF49 /* Frameworks */,
+				B66CA1022064F2FD000DEF49 /* Resources */,
+				B4093BDA1C66FDD61F88814E /* [CP] Embed Pods Frameworks */,
+				A2D90FD4623A051BB9F64632 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B66CA1062064F2FD000DEF49 /* PBXTargetDependency */,
+			);
+			name = HGUploadCocoaLumberjackTests;
+			productName = HGUploadCocoaLumberjackTests;
+			productReference = B66CA1042064F2FD000DEF49 /* HGUploadCocoaLumberjackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B66CA10E2064F2FD000DEF49 /* HGUploadCocoaLumberjackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66CA11E2064F2FD000DEF49 /* Build configuration list for PBXNativeTarget "HGUploadCocoaLumberjackUITests" */;
+			buildPhases = (
+				C2060D494B17B28189E87DBB /* [CP] Check Pods Manifest.lock */,
+				B66CA10B2064F2FD000DEF49 /* Sources */,
+				B66CA10C2064F2FD000DEF49 /* Frameworks */,
+				B66CA10D2064F2FD000DEF49 /* Resources */,
+				A2EEA4D53493FDCD34000526 /* [CP] Embed Pods Frameworks */,
+				069B10935C352EF7DB1F40A7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B66CA1112064F2FD000DEF49 /* PBXTargetDependency */,
+			);
+			name = HGUploadCocoaLumberjackUITests;
+			productName = HGUploadCocoaLumberjackUITests;
+			productReference = B66CA10F2064F2FD000DEF49 /* HGUploadCocoaLumberjackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B66CA0E42064F2FD000DEF49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = onething;
+				TargetAttributes = {
+					B66CA0EB2064F2FD000DEF49 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B66CA1032064F2FD000DEF49 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B66CA0EB2064F2FD000DEF49;
+					};
+					B66CA10E2064F2FD000DEF49 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B66CA0EB2064F2FD000DEF49;
+					};
+				};
+			};
+			buildConfigurationList = B66CA0E72064F2FD000DEF49 /* Build configuration list for PBXProject "HGUploadCocoaLumberjack" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B66CA0E32064F2FD000DEF49;
+			productRefGroup = B66CA0ED2064F2FD000DEF49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B66CA0EB2064F2FD000DEF49 /* HGUploadCocoaLumberjack */,
+				B66CA1032064F2FD000DEF49 /* HGUploadCocoaLumberjackTests */,
+				B66CA10E2064F2FD000DEF49 /* HGUploadCocoaLumberjackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B66CA0EA2064F2FD000DEF49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66CA0FC2064F2FD000DEF49 /* LaunchScreen.storyboard in Resources */,
+				B66CA0F92064F2FD000DEF49 /* Assets.xcassets in Resources */,
+				B66CA0F72064F2FD000DEF49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66CA1022064F2FD000DEF49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66CA10D2064F2FD000DEF49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0626795731D8E7CD9EF48025 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HGUploadCocoaLumberjackTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		069B10935C352EF7DB1F40A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGUploadCocoaLumberjackUITests/Pods-HGUploadCocoaLumberjackUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5130C5F3FCB5B40E6BFA88A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGUploadCocoaLumberjack/Pods-HGUploadCocoaLumberjack-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2D90FD4623A051BB9F64632 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGUploadCocoaLumberjackTests/Pods-HGUploadCocoaLumberjackTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2EEA4D53493FDCD34000526 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGUploadCocoaLumberjackUITests/Pods-HGUploadCocoaLumberjackUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4093BDA1C66FDD61F88814E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGUploadCocoaLumberjackTests/Pods-HGUploadCocoaLumberjackTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2060D494B17B28189E87DBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HGUploadCocoaLumberjackUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3AAE34A37CC95626186A096 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGUploadCocoaLumberjack/Pods-HGUploadCocoaLumberjack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB750AB291FEA6096346FA24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HGUploadCocoaLumberjack-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B66CA0E82064F2FD000DEF49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66CA0F42064F2FD000DEF49 /* ViewController.m in Sources */,
+				B66CA13020653558000DEF49 /* MCFileLogUploadManager.m in Sources */,
+				B66CA0FF2064F2FD000DEF49 /* main.m in Sources */,
+				B66CA0F12064F2FD000DEF49 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66CA1002064F2FD000DEF49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66CA1092064F2FD000DEF49 /* HGUploadCocoaLumberjackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66CA10B2064F2FD000DEF49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66CA1142064F2FD000DEF49 /* HGUploadCocoaLumberjackUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B66CA1062064F2FD000DEF49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B66CA0EB2064F2FD000DEF49 /* HGUploadCocoaLumberjack */;
+			targetProxy = B66CA1052064F2FD000DEF49 /* PBXContainerItemProxy */;
+		};
+		B66CA1112064F2FD000DEF49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B66CA0EB2064F2FD000DEF49 /* HGUploadCocoaLumberjack */;
+			targetProxy = B66CA1102064F2FD000DEF49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B66CA0F52064F2FD000DEF49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B66CA0F62064F2FD000DEF49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B66CA0FA2064F2FD000DEF49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B66CA0FB2064F2FD000DEF49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B66CA1162064F2FD000DEF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B66CA1172064F2FD000DEF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B66CA1192064F2FD000DEF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9545117E4510C021580D12EC /* Pods-HGUploadCocoaLumberjack.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HGUploadCocoaLumberjack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdxz.HGUploadCocoaLumberjack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B66CA11A2064F2FD000DEF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B920301C665B7E63F6D2D915 /* Pods-HGUploadCocoaLumberjack.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HGUploadCocoaLumberjack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdxz.HGUploadCocoaLumberjack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B66CA11C2064F2FD000DEF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C430155CCEF2137E10E7C2AD /* Pods-HGUploadCocoaLumberjackTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HGUploadCocoaLumberjackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdxz.HGUploadCocoaLumberjackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HGUploadCocoaLumberjack.app/HGUploadCocoaLumberjack";
+			};
+			name = Debug;
+		};
+		B66CA11D2064F2FD000DEF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13AD1A4C6D12B208621878B6 /* Pods-HGUploadCocoaLumberjackTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HGUploadCocoaLumberjackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdxz.HGUploadCocoaLumberjackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HGUploadCocoaLumberjack.app/HGUploadCocoaLumberjack";
+			};
+			name = Release;
+		};
+		B66CA11F2064F2FD000DEF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A2149318F833A80B3832843 /* Pods-HGUploadCocoaLumberjackUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HGUploadCocoaLumberjackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdxz.HGUploadCocoaLumberjackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HGUploadCocoaLumberjack;
+			};
+			name = Debug;
+		};
+		B66CA1202064F2FD000DEF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EA5D73429BA5DCB8064FDCE /* Pods-HGUploadCocoaLumberjackUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HGUploadCocoaLumberjackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdxz.HGUploadCocoaLumberjackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HGUploadCocoaLumberjack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B66CA0E72064F2FD000DEF49 /* Build configuration list for PBXProject "HGUploadCocoaLumberjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66CA1162064F2FD000DEF49 /* Debug */,
+				B66CA1172064F2FD000DEF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66CA1182064F2FD000DEF49 /* Build configuration list for PBXNativeTarget "HGUploadCocoaLumberjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66CA1192064F2FD000DEF49 /* Debug */,
+				B66CA11A2064F2FD000DEF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66CA11B2064F2FD000DEF49 /* Build configuration list for PBXNativeTarget "HGUploadCocoaLumberjackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66CA11C2064F2FD000DEF49 /* Debug */,
+				B66CA11D2064F2FD000DEF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66CA11E2064F2FD000DEF49 /* Build configuration list for PBXNativeTarget "HGUploadCocoaLumberjackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66CA11F2064F2FD000DEF49 /* Debug */,
+				B66CA1202064F2FD000DEF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B66CA0E42064F2FD000DEF49 /* Project object */;
+}
